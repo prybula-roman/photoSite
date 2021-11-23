@@ -1,0 +1,19 @@
+{
+  "name": "photosite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --no-source-maps",
+    "build": "parcel build index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body": "^5.1.0",
+    "parcel": "^2.0.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
